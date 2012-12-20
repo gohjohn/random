@@ -1,0 +1,10 @@
+Copy and paste this into the js console to inject styles
+
+
+var stylesheetsource = ""
+
+var newSS = document.createElement('link');
+newSS.type = "text/css"
+newSS.rel = "stylesheet"
+newSS.href=stylesheetsource
+document.getElementsByTagName('head')[0].appendChild(newSS);
