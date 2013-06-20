@@ -1,0 +1,13 @@
+
+$.fn.slideRight = function() {
+  // Show
+  this.each(function () {
+		$(this).animate({width: 'show'});
+	});
+};
+$.fn.slideLeft = function() {
+  // Hide
+	this.each(function () {
+		$(this).animate({width: 'hide'});
+	});
+};
